@@ -26,7 +26,7 @@ First of all, you need to set Dynamic DNS serice on your router, because Webhook
 Than you need to make a open specific port in your router (the same you set in arduino code). So from WAN you can access to your LAN via browser typing "yourhostname.yourdomain:port" (es. mysmarthome.ddns.net:888 || i use noip provider).
 Now you have all ready, last thing to do is make a IFTT account, because we are going to use this service for IoT integration.
 
-## Alexa
+#### Alexa
 For Alexa integration, you have to create two applets for every relay you have in your powerstrip (one applet for ON and another for OFF). So, let's start.
 - Log In in your IFTT account
 - From you profile select "create new applet"
@@ -41,7 +41,7 @@ For Alexa integration, you have to create two applets for every relay you have i
 - Select create action
 - Now you have alexa connected with your smart powerstrip
 
-## Google Assistant
+#### Google Assistant
 For Google Assistant integration we use the same method of Alexa service, so we'll create two applets for every single relay.  So, let's start.
 - Log In in your IFTT account
 - From you profile select "create new applet"
